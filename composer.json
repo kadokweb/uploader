@@ -1,0 +1,32 @@
+{
+  "name": "kadokweb/uploader",
+  "description": "It is a easy PHP upload manager for images, files and media in your application",
+  "keywords": [
+    "KadokWeb",
+    "kadok",
+    "upload",
+    "image upload",
+    "file upload",
+    "media upload"
+  ],
+  "homepage": "http://www.kadok.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Doka Silva",
+      "email": "doka@kadok.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "KadokWeb\\Uploader\\": "src"
+    }
+  }
+}
